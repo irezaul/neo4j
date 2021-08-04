@@ -26,3 +26,36 @@ docker run -d -p 80:80 docker/getting-started
 docker pull neo4j --platform linux/amd64
 ```
 ![neo4j pull command](https://user-images.githubusercontent.com/77927449/128215550-d08862cb-da66-42b1-87f4-a43d1253dd71.png)
+
+> check on docker app images tab
+
+![dockerapp_images](https://user-images.githubusercontent.com/77927449/128216860-998ec266-4704-4c8a-ab3a-77f2a16b9852.png)
+
+![docker_image](https://user-images.githubusercontent.com/77927449/128217360-eb9809f9-9760-4f6f-a0e9-3724815da717.png)
+
+### Now run `neo4j` image porcess by terminal with define `port` & login `ID PASSWORD`
+
+```bash
+docker run --platform linux/amd64 -p7474:7474 -p7687:7687 -d --env NEO4J_AUTH=neo4j/test neo4j:latest
+```
+![neo4j image run](https://user-images.githubusercontent.com/77927449/128220664-6368764e-7f33-4576-8314-d86c2d140ac2.png)
+
+#### now your neo4j ready for run on your define port number.
+```bash
+localhost:7474
+```
+![neo4j run by port](https://user-images.githubusercontent.com/77927449/128221622-ac800daa-c52b-4c71-99ea-cba03b14b64c.png)
+# Congratulation!
+#### Now put your ID & Password what we define -
+```bash
+ID - neo4j
+Pass- test
+```
+##### Login done
+![neo4j_login](https://user-images.githubusercontent.com/77927449/128222347-1641f229-ab1d-4578-affd-1469d2fbdd11.png)
+
+> Command Play come -
+
+![command_play_ready](https://user-images.githubusercontent.com/77927449/128223737-156cabe0-da0f-4615-a5c8-0de0c0644701.png)
+
+
