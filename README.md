@@ -58,4 +58,38 @@ Pass- test
 
 ![command_play_ready](https://user-images.githubusercontent.com/77927449/128223737-156cabe0-da0f-4615-a5c8-0de0c0644701.png)
 
+### Okey LET'S started - `Neo4j` is a `Graph` Database, which language usage is called `Cypher` (Cypher Query Language).
+>Cypher’s syntax provides a visual and logical way to match patterns of nodes and relationships in the graph. It is a declarative, SQL-inspired language for describing visual patterns in graphs using ASCII-Art syntax. It allows us to state what we want to select, insert, update, or delete from our graph data without a description of exactly how to do it. Through Cypher, users can construct expressive and efficient queries to handle needed create, read, update, and delete functionality.
 
+### Command -
+* MATCH command 
+> `MATCH` command which like a query to find me anything matches the quiteria thay i have. 
+```bash
+MATCH (n) RETURN (n)
+```
+#### MATCH `(n)` <b>means<b> `n` is node & RETURN `(n)` - return node
+  
+  ![MATCH_n](https://user-images.githubusercontent.com/77927449/128233093-521a93da-5be3-43f0-a74f-aa62c799b2d1.png)
+> no record found & no node found.
+
+### Now we create a node by Command-
+  ```bash
+  CREATE (n)
+  ```
+  ![create a node](https://user-images.githubusercontent.com/77927449/128234038-3463c624-103b-450f-bcf5-58144e738c3d.png)
+  
+> again type the match command to see node
+  ```bash
+MATCH (n) RETURN (n)
+```
+> see here created a node by showing graphiclly
+
+  ![node create](https://user-images.githubusercontent.com/77927449/128234384-63d2c12f-b449-4eb2-aac3-fbc9986d6ed8.png)
+> you can see, we did not create a relationship here and did not name the node.
+  
+### How to delete?
+  > delete command is -
+```bash
+MATCH (n) DELETE (n)
+```
+  
