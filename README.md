@@ -92,4 +92,6 @@ MATCH (n) RETURN (n)
 ```bash
 MATCH (n) DELETE (n)
 ```
+![node delete](https://user-images.githubusercontent.com/77927449/128235532-f9539000-e44b-4797-9ee6-a9668ce3ab76.png)
+
   
