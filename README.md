@@ -101,10 +101,15 @@ MATCH (n) DELETE (n)
   ![create person](https://user-images.githubusercontent.com/77927449/128397965-b6e4d0ab-65f8-47d6-b883-bc233040ad30.png)
 
   
-####  If we need a delete a person -
+### * If we need a delete a person -
   ```bash
   MATCH (n:Person {name: 'UNKNOWN'})
 DELETE n
 ```
+### * How to find a single person by command -
+  ```bash
+MATCH (n:Person) RETURN (n)
+```
+![single person call](https://user-images.githubusercontent.com/77927449/128399496-374fca27-e62c-49e8-8770-0f0e6f557471.png)
   
   
