@@ -94,4 +94,17 @@ MATCH (n) DELETE (n)
 ```
 ![node delete](https://user-images.githubusercontent.com/77927449/128235532-f9539000-e44b-4797-9ee6-a9668ce3ab76.png)
 
+  ### How to added a `Person` with color on node-
+  ```bash
+  CREATE (n:Person{name:'Master-Academy', favoritecolor:'green'})
+  ```
+  ![create person](https://user-images.githubusercontent.com/77927449/128397965-b6e4d0ab-65f8-47d6-b883-bc233040ad30.png)
+
+  
+####  If we need a delete a person -
+  ```bash
+  MATCH (n:Person {name: 'UNKNOWN'})
+DELETE n
+```
+  
   
