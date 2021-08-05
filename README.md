@@ -112,4 +112,21 @@ MATCH (n:Person) RETURN (n)
 ```
 ![single person call](https://user-images.githubusercontent.com/77927449/128399496-374fca27-e62c-49e8-8770-0f0e6f557471.png)
   
+  ### * How to Create a Relationship between in 2nodes
+  ```bash
+  MATCH
+  (a:Person),
+  (b:Person)
+WHERE a.name = 'Name' AND b.name = 'Name'
+CREATE (a)-[r:RELATIONSHIP]->(b)
+RETURN type(r)
+```
+  > put the name of nodes on `='Name'` also type the relationship name on `r:RELATIONSHIP`
+  
+  #### How to delete a relationship -
+```bash
+  MATCH (n {name: 'NAME'})-[r:RELATIONSHIP_NAME]->()
+DELETE r
+```
+  > where `NAME` you set here your node name or person name & `r:RELATIONSHIP_NAME` here you type your relation name -
   
