@@ -103,7 +103,7 @@ MATCH (n) DELETE (n)
   
 ### * If we need a delete a person -
   ```bash
-  MATCH (n:Person {name: 'UNKNOWN'})
+MATCH (n:Person {name: 'UNKNOWN'})
 DELETE n
 ```
 ### * How to find a single person by command -
@@ -114,19 +114,21 @@ MATCH (n:Person) RETURN (n)
   
   ### * How to Create a Relationship between in 2nodes
   ```bash
-  MATCH
+MATCH
   (a:Person),
   (b:Person)
-WHERE a.name = 'Name' AND b.name = 'Name'
-CREATE (a)-[r:RELATIONSHIP]->(b)
-RETURN type(r)
+WHERE a.name = 'Mostain' AND b.name = 'Master-Academy'
+CREATE (a)-[r:FOUNDER_OF]->(b)
 ```
   > put the name of nodes on `='Name'` also type the relationship name on `r:RELATIONSHIP`
   
   #### How to delete a relationship -
 ```bash
-  MATCH (n {name: 'NAME'})-[r:RELATIONSHIP_NAME]->()
+MATCH (n {name: 'NODE_NAME'})-[r:RELATIONSHIP_NAME]->()
 DELETE r
 ```
-  > where `NAME` you set here your node name or person name & `r:RELATIONSHIP_NAME` here you type your relation name -
+  > where `NODE_NAME` you set here your node name or person name & `r:RELATIONSHIP_NAME` here you type your relation name -
   
+### I Create a relationship here see on image-
+
+  ![relationship_done](https://user-images.githubusercontent.com/77927449/128410167-008c698d-047f-4826-9bfd-5778939ee715.png)
