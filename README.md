@@ -132,3 +132,8 @@ DELETE r
 ### I Create a relationship here see on image-
 
   ![relationship_done](https://user-images.githubusercontent.com/77927449/128410167-008c698d-047f-4826-9bfd-5778939ee715.png)
+  
+  #### How to delete all nodes & relationship
+  ```bash
+  MATCH (n) DETACH DELETE (n)
+  ```
