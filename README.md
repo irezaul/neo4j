@@ -112,7 +112,7 @@ MATCH (n:Person) RETURN (n)
 ```
 ![single person call](https://user-images.githubusercontent.com/77927449/128399496-374fca27-e62c-49e8-8770-0f0e6f557471.png)
   
-  ### * How to Create a Relationship between in 2nodes
+  ### * How to Create a Relationship between in 2 Nodes
   ```bash
 MATCH
   (a:Person),
@@ -137,3 +137,4 @@ DELETE r
   ```bash
   MATCH (n) DETACH DELETE (n)
   ```
+
