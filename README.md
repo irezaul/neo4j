@@ -21,7 +21,7 @@ docker run -d -p 80:80 docker/getting-started
 - [x] [Neo4j_docker](https://hub.docker.com/_/neo4j)
 ![ne04j_docker_pull](https://user-images.githubusercontent.com/77927449/128216121-8842407e-57d0-405d-ab60-b9c768142191.png)
 
-> run this command on terminal
+> run this command on terminal -
 ```bash
 docker pull neo4j --platform linux/amd64
 ```
