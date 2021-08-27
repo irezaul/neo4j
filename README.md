@@ -94,7 +94,7 @@ MATCH (n) DELETE (n)
 ```
 ![node delete](https://user-images.githubusercontent.com/77927449/128235532-f9539000-e44b-4797-9ee6-a9668ce3ab76.png)
 
-  ### How to added a `Person` with color on node-
+  ### How to added a `Person` with color on node -
   ```bash
   CREATE (n:Person{name:'Master-Academy', favoritecolor:'green'})
   ```
@@ -129,7 +129,7 @@ DELETE r
 ```
   > where `NODE_NAME` you set here your node name or person name & `r:RELATIONSHIP_NAME` here you type your relation name -
   
-### I Create a relationship here see on image-
+### I Create a relationship here see on image -
 
   ![relationship_done](https://user-images.githubusercontent.com/77927449/128410167-008c698d-047f-4826-9bfd-5778939ee715.png)
   
