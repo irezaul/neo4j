@@ -1,7 +1,7 @@
 # neo4j
 Neo4j Tutorial  
 ### How to Install Docker on your macOS Machine -
-- [x] Installation
+- [x] Installation -
 - [x] [Docker_download](https://download.docker.com/mac/beta/Docker.dmg)
 - [x] Double-click the DMG file, and drag-and-drop Docker into your Applications folder.
 - [x] You need to authorize the installation with your system password.
