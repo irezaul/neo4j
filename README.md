@@ -11,7 +11,7 @@ Neo4j Tutorial
 - [x] You can access settings and other options from the whale in the status bar. a. Select About Docker to make sure you have the latest version.
 
 ### Run Docker app & wait for a while to ready docker app -
-> when ready docker app open terminal & run docker command
+> when ready docker app open terminal & run docker command -
 ```bash 
 docker run -d -p 80:80 docker/getting-started
 ```
