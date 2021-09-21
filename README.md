@@ -27,7 +27,7 @@ docker pull neo4j --platform linux/amd64
 ```
 ![neo4j pull command](https://user-images.githubusercontent.com/77927449/128215550-d08862cb-da66-42b1-87f4-a43d1253dd71.png)
 
-> check on docker app images tab
+> check on docker app images tab -
 
 ![dockerapp_images](https://user-images.githubusercontent.com/77927449/128216860-998ec266-4704-4c8a-ab3a-77f2a16b9852.png)
 
