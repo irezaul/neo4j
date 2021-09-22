@@ -61,7 +61,7 @@ Pass- test
 ### Okey LET'S started - `Neo4j` is a `Graph` Database, which language usage is called `Cypher` (Cypher Query Language).
 >Cypher’s syntax provides a visual and logical way to match patterns of nodes and relationships in the graph. It is a declarative, SQL-inspired language for describing visual patterns in graphs using ASCII-Art syntax. It allows us to state what we want to select, insert, update, or delete from our graph data without a description of exactly how to do it. Through Cypher, users can construct expressive and efficient queries to handle needed create, read, update, and delete functionality.
 
-### Command -
+### Command --
 * MATCH command 
 > `MATCH` command which like a query to find me anything matches the quiteria thay i have. 
 ```bash
