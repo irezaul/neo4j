@@ -46,7 +46,7 @@ localhost:7474
 ```
 ![neo4j run by port](https://user-images.githubusercontent.com/77927449/128221622-ac800daa-c52b-4c71-99ea-cba03b14b64c.png)
 # Congratulation!
-#### Now put your ID & Password what we define -
+#### Now put your ID & Password what we define - -
 ```bash
 ID - neo4j
 Pass- test
